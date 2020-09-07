@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/credits"
+            android:title="@string/show_credits"
+            android:icon="@drawable/ic_credits"
+            app:showAsAction="ifRoom|withText"/>
+
+    <item
+            android:id="@+id/record_table_item"
+            android:title="@string/record_activity_item"
+            app:showAsAction="ifRoom"/>
+
+</menu>

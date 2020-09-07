@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minesweeper 3.0</string>
+    <string name="restart_button">Заново</string>
+    <string name="settings_button">Настройки</string>
+    <string name="field_size_number_picker">Размер поля:</string>
+    <string name="num_of_bombs_number_picker">Кол-во бомб:</string>
+    <string name="num_of_bombs_error_toast">Слишком много бомб</string>
+    <string name="level_label">Уровень:</string>
+    <string name="hard_label">Сложный</string>
+    <string name="medium_label">Средний</string>
+    <string name="easy_label">Легкий</string>
+    <string name="custom_label">Свой</string>
+    <string name="show_credits">Инфо</string>
+    <plurals name="num_of_bombs_settings">
+        <item quantity="one">%1$d бомба</item>
+        <item quantity="few">%1$d бомбы</item>
+        <item quantity="many">%1$d бомб</item>
+        <item quantity="other">%1$d бомб</item>
+    </plurals>
+    <plurals name="field_size_settings">
+        <item quantity="one">Размер поля %1$d клетка</item>
+        <item quantity="few">Размер поля %1$d клетки</item>
+        <item quantity="many">Размер поля %1$d клеток</item>
+        <item quantity="other">Размер поля %1$d клеток</item>
+    </plurals>
+    <string name="record_activity_item">Рекорды</string>
+    <string name="time">"Время: "</string>
+    <string name="date">"Дата: "</string>
+    <string name="no_records">Нет рекордов с такой настройкой</string>
+    <string name="current_conf_records">Рекорды для текущей настройки</string>
+    <string name="bombs_left">"Бомб осталось: "</string>
+    <string name="how_to_play">Как играть?</string>
+</resources>

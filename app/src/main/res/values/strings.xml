@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Minesweeper 3.0</string>
+    <string name="bomb" translatable="false">▲</string>
+    <string name="noBomb" translatable="false">□</string>
+    <string name="flag" translatable="false">■</string>
+    <string name="empty" translatable="false">○</string>
+    <string name="restart_button">Restart</string>
+    <string name="settings_button">Settings</string>
+    <string name="field_size_number_picker">Field size: </string>
+    <string name="num_of_bombs_number_picker">Number of bombs:</string>
+    <string name="num_of_bombs_error_toast">Too many bombs</string>
+    <string name="level_label">Level:</string>
+    <string name="hard_label">Hard</string>
+    <string name="medium_label">Medium</string>
+    <string name="easy_label">Easy</string>
+    <string name="custom_label">Custom</string>
+    <string name="show_credits">Show credits</string>
+    <string name="credits_toast" translatable="false">Minesweeper 3.0 by Namor</string>
+    <plurals name="num_of_bombs_settings">
+        <item quantity="one">%1$d bomb</item>
+        <item quantity="other">%1$d bombs</item>
+    </plurals>
+    <plurals name="field_size_settings">
+        <item quantity="other">%1$d cells width</item>
+    </plurals>
+    <string name="record_activity_item">Records</string>
+    <string name="time">Time: </string>
+    <string name="date">Date: </string>
+    <string name="no_records">No records with this configuration</string>
+    <string name="current_conf_records">Records for current configuration</string>
+    <string name="bombs_left">Bombs left: </string>
+    <string name="how_to_play">How to play?</string>
+</resources>

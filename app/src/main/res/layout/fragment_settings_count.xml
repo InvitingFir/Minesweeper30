@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <GridLayout
+            android:columnCount="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:text="@string/num_of_bombs_number_picker"/>
+
+        <NumberPicker
+                android:id="@+id/bombs_number_picker"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:text="@string/field_size_number_picker"/>
+
+        <NumberPicker
+                android:id="@+id/field_size_number_picker"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </GridLayout>
+
+    <Button
+            android:id="@+id/ok_settings_button"
+            android:text="@android:string/ok"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
